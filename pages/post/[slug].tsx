@@ -64,6 +64,7 @@ const Post = ({ post }: Props) => {
           </p>
         </div>
         <div className="mt-10">
+          {/* tslint:disable-next-line */}
           <PortableText
             className=""
             dataset={process.env.NEXT_PUBLIC_SANITY_DATASET!}
