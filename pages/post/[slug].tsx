@@ -64,9 +64,9 @@ const Post = ({ post }: Props) => {
           </p>
         </div>
         <div className="mt-10">
-          {/*  @ts-ignore */}
           <PortableText
             className=""
+            /*  @ts-ignore */
             dataset={process.env.NEXT_PUBLIC_SANITY_DATASET!}
             projectId={process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!}
             content={post.body}
