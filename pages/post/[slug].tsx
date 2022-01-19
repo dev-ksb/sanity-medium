@@ -96,7 +96,7 @@ const Post = ({ post }: Props) => {
         onSubmit={handleSubmit(onSubmit)}
       >
         <h3 className="text-sm text-yellow-500">Enjoyed this article?</h3>
-        <h4 className="text-3xl font-bold">Leave a commen below!</h4>
+        <h4 className="text-3xl font-bold">Leave a commen below</h4>
         <hr className="py-3 mt-2" />
 
         <input {...register("_id")} type="hidden" name="_id" value={post._id} />
